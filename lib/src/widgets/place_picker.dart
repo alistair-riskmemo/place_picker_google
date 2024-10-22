@@ -335,6 +335,7 @@ class PlacePickerState extends State<PlacePicker>
             PlacePicker.defaultLocation,
         zoom: _getInitialZoom(),
       ),
+      mapType: MapType.satellite,
       minMaxZoomPreference: widget.minMaxZoomPreference,
       myLocationEnabled: widget.myLocationEnabled,
       onTap: onTap,
